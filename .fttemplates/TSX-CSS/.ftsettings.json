@@ -1,5 +1,4 @@
 {
-  "name": "TSX-CSS",
   "openFilesWhenDone": ["ui/[FTName].tsx"],
   "omitParentDirectory": false,
   "overwriteExistingFiles": "never"

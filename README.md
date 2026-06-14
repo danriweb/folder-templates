@@ -4,17 +4,20 @@
 
 ## Доступные шаблоны
 
-| Шаблон           | Что создаёт                                           |
-| ---------------- | ----------------------------------------------------- |
-| `TSX`            | Компонент: `index.ts` + `ui/[Name].tsx`               |
-| `TSX-CSS`        | Компонент: `index.ts` + `ui/[Name].tsx` + CSS-модуль  |
-| `TSX-CSS-TYPES`  | Компонент с CSS-модулем + `model/` (типы)             |
-| `TSX-SCSS`       | Компонент: `index.ts` + `ui/[Name].tsx` + SCSS-модуль |
-| `TSX-SCSS-TYPES` | Компонент с SCSS-модулем + `model/` (типы)            |
-| `.tsx`           | Одиночный `.tsx`-файл                                 |
-| `.store.ts`      | Zustand-стор                                          |
-| `.use.ts`        | Хук `use[Name]`                                       |
-| `.use.ts-model`  | Хук с папкой `model/`                                 |
+| Шаблон           | Что создаёт                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| `TSX`            | Компонент: `index.ts` + `ui/[Name].tsx`                                     |
+| `TSX-CSS`        | Компонент: `index.ts` + `ui/[Name].tsx` + CSS-модуль                        |
+| `TSX-CSS-TYPES`  | Компонент с CSS-модулем + `model/` (типы)                                   |
+| `TSX-SCSS`       | Компонент: `index.ts` + `ui/[Name].tsx` + SCSS-модуль                       |
+| `TSX-SCSS-TYPES` | Компонент с SCSS-модулем + `model/` (типы)                                  |
+| `TSX-HOOK`       | Компонент: `index.ts` + `ui/[Name].tsx` + `model/` (типы и хук `use[Name]`) |
+| `TSX-TYPES`      | Компонент: `index.ts` + `ui/[Name].tsx` + `model/` (типы)                   |
+| `TSX-TYPES-HOOK` | Компонент: `index.ts` + `ui/[Name].tsx` + `model/` (хук `use[Name]`)        |
+| `.tsx`           | Одиночный `.tsx`-файл                                                       |
+| `.store.ts`      | Zustand-стор                                                                |
+| `.use.ts`        | Хук `use[Name]`                                                             |
+| `.use.ts-model`  | Хук с папкой `model/`                                                       |
 
 ## Как использовать
 
