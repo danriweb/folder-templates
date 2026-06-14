@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "**/.fttemplates/**/*.tsx": "javascriptreact",
+    "**/.fttemplates/**/*.ts": "javascript"
+  }
+}
