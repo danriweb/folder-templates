@@ -1,5 +1,3 @@
-import styles from "./[FTName | pascalcase].module.scss";
-
 const [FTName | pascalcase] = () => {
   return <div></div>;
 };
